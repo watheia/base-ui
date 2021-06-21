@@ -1,20 +1,3 @@
-/**
- * Basic colors palette for bit.dev.  
- * Colors divide into these groups:
- * -   Primary, brand (purple)
- * -   Secondary (blue)
- * -   Complementary (pink)
- * -   Success (green)
- * -   Risk (yellow)
- * -   Danger (red)
- * -   Neutrals (gray)
- * -   Shadows
- 
- * Each color has its own shades, scaling between 0 (lightest) and 100 (darkest),  
- * e.g.: p20 (lightest purple), p30, p50 (base purple), p60 (highlight) p70 (darkest)
- */
-
-
 // purple
 $p70: #3e29df;
 $p60: #5d4aec;
@@ -31,7 +14,6 @@ $b40: #95ccf5;
 $b30: #d2ecfe;
 $b20: #f3faff;
 
-
 // green
 $g70: #006644;
 $g60: #2e945a;
@@ -39,7 +21,6 @@ $g50: #37b26c;
 $g40: #94deb4;
 $g30: #d0f1de;
 $g20: #eefaf3;
-
 
 // yellow
 $y70: #ff8b00;
@@ -57,15 +38,14 @@ $r40: #f086a0;
 $r30: #f7bac9;
 $r20: #fdeff2;
 
-
 // dark
-$d80: #cccfd4; // light grey
 $d70: #0c0c0c; // lucifer
 $d60: #2b2b2b; // doom
 $d50: #414141; // darkness
 $d40: #6c707c; // battleship
 $d30: #878c9a; // steel
 $d20: #babec9; // silver
+$d15: #cccfd4; // light grey
 $d10: #ededed; // pearl
 $w20: #f6f6f6; // cloud
 $w10: #ffffff; // white
@@ -76,7 +56,6 @@ $pink50: #f83d6c;
 $pink40: #f96389;
 $pink30: #fb9cb4;
 $pink20: #ffe2ea;
-
 
 // shadow
 $s50: rgba(65, 65, 65, 0.5);
