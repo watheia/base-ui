@@ -1,108 +1,60 @@
 /**
  * this is the main configuration file of your bit workspace.
- * for full documentation, please see: https://docs.bit.dev/configuration
-**/ {
-  "$schema": "",
+ * for full documentation, please see: https://harmony-docs.bit.dev/workspace/configurations
+ **/{
+  "$schema": "https://static.bit.dev/teambit/schemas/schema.json",
   /**
    * main configuration of the Bit workspace.
-  **/
+   **/
   "teambit.workspace/workspace": {
     /**
-     * set the default scope when there is no matching for the component in the components array.
+     * the name of the component workspace. used for development purposes.
      **/
-    "defaultScope": "teambit.base-ui",
+    "name": "base-ui",
     /**
-     * set the default directory when there is no matching for the component in the components array.
+     * set the icon to be shown on the Bit server.
      **/
-    "defaultDirectory": "src/components/{name}",
-    "vendorDirectory": "vendor"
+    "icon": "https://static.bit.dev/bit-logo.svg",
+    /**
+     * default directory to place a component during `bit import` and `bit create`.
+     * the following placeholders are available:
+     * name - component name includes namespace, e.g. 'ui/button'.
+     * scopeId - full scope-id includes the owner, e.g. 'teambit.compilation'.
+     * scope - scope name only, e.g. 'compilation'.
+     * owner - owner name in bit.dev, e.g. 'teambit'.
+     **/
+    "defaultDirectory": "src/{scope}/{name}",
+    /**
+     * default scope for all components in workspace.
+     **/
+    "defaultScope": "watheia.base-ui"
   },
   /**
    * main configuration for component dependency resolution.
-  **/
+   **/
   "teambit.dependencies/dependency-resolver": {
     /**
-     * choose the package manager for Bit to use. you can choose between 'npm', 'yarn', 'pnpm'
-    */
+     * choose the package manager for Bit to use. you can choose between 'yarn', 'pnpm'
+     */
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
-      "dependencies": {
-        "@testing-library/jest-dom": "^5.11.1",
-        "@testing-library/react": "^10.4.7",
-        "@testing-library/user-event": "^12.0.11",
-        "@types/javascript-time-ago": "^2.0.1",
-        "@types/lodash.debounce": "^4.0.6",
-        "@types/node": "^14.0.24",
-        "@types/react-dom": "^16.9.8",
-        "@types/react-onclickoutside": "^6.7.3",
-        "@types/react-slick": "^0.23.4",
-        "@types/react": "^16.9.43",
-        "@types/url-parse": "1.4.3",
-        "classnames": "^2.2.6",
-        "core-js": "3.7.0",
-        "duration": "0.2.2",
-        "graphql-request": "3.4.0",
-        "graphql": "15.5.0",
-        "javascript-time-ago": "^2.0.13",
-        "lodash.debounce": "^4.0.8",
-        "number-abbreviate": "^2.0.0",
-        "path-browserify": "^1.0.1",
-        "rc-tooltip": "^4.2.1",
-        "react-create-ref": "^1.0.1",
-        "react-onclickoutside": "^6.9.0",
-        "react-scripts": "3.4.1",
-        "react-slick": "^0.27.0",
-        "resize-observer-polyfill": "^1.5.1",
-        "typescript": "^3.8.3",
-        "url-parse": "1.5.1",
-        "use-deep-compare": "1.1.0"
-      },
       "peerDependencies": {
-        "@popperjs/core": "^2.0.0",
-        "react-dom": "^16.13.1",
-        "react": "^16.13.1"
+        "@teambit/design.ui.external-link": "^0.0.344",
+        "@teambit/documenter.theme.theme-compositions": "^4.1.1",
+        "@teambit/documenter.ui.copy-box": "^4.1.1",
+        "@teambit/eslint-config-bit-react": "^0.0.367",
+        "@teambit/harmony": "^0.2.11",
+        "@teambit/react.templates.themes.theme": "^0.0.4"
       }
-    },
-    "packageManagerArgs": [],
-    "devFilePatterns": [
-      "**/*.spec.ts"
-    ],
-    // "devFilePatterns": [
-    //   "*.spec.ts"
-    // ],
-    /**
-    * If true, then Bit will add the "--strict-peer-dependencies" option when invoking package managers.
-    * This causes "bit install" to fail if there are unsatisfied peer dependencies, which is
-    * an invalid state that can cause build failures or incompatible dependency versions.
-    * (For historical reasons, JavaScript package managers generally do not treat this invalid
-    * state as an error.)
-    *
-    * The default value is false to avoid legacy compatibility issues.
-    * It is strongly recommended to set strictPeerDependencies=true.
-    */
-    "strictPeerDependencies": true,
-    "installFromBitDevRegistry": true,
-    "savePrefix": "",
-    /**
-     * map of extra arguments to pass to the configured package manager upon the installation
-     * of dependencies.
-    */
-    "extraArgs": []
+    }
   },
   /**
-   * automate Bit workflow with Git.
-  */
-  // "@teambit/git": {
-  /**
-     * fetch dependency and component updates on `git pull`.
-    **/
-  // "dependencyUpdateOnPull": true
-  // },
-  /**
-   * workspace variants allow to set different subsets of configuration for components in your workspace.
-   * this is extremely useful for upgrading, aligning and building components with a
-   * new set of dependencies.
-  **/
+   * workspace variants allow to set different subsets of configuration for components in your
+   * workspace. this is extremely useful for upgrading, aligning and building components with a new
+   * set of dependencies. a rule can be a directory or a component-id/namespace, in which case,
+   * wrap the rule with curly brackets (e.g. `"{ui/*}": {}`)
+   * see https://harmony-docs.bit.dev/aspects/variants for more info.
+   **/
   "teambit.workspace/variants": {
     "*": {
       "teambit.dependencies/dependency-resolver": {},
@@ -111,23 +63,47 @@
           "--access public"
         ],
         "packageJson": {
-          "name": "@teambit/base-ui.{name}",
-          "private": false
-        }
-      },
-      "teambit.react/react": {}
-    },
-    "{hooks/use-graphql-light}": {
-      "teambit.dependencies/dependency-resolver": {
-        "policy": {
-          "dependencies": {
-            "graphql": "-"
-          },
-          "peerDependencies": {
-            "graphql": "^14.0.0 || ^15.0.0"
-          }
+          "name": "@watheia/{scope}.{name}",
+          "private": false,
+          "repository": "https://github.com/watheia/{scope}",
+          "author": "Aaron R Miller <amiller@watheia.org>",
+          "license": "MIT",
+          "homepage": "https://watheia.org/home"
         }
       }
+    },
+    "src/base-ui": {
+      "defaultScope": "watheia.base-ui",
+      "teambit.react/react": {}
+    },
+    "src/demo": {
+      "defaultScope": "watheia.demo",
+      "watheia.envs/wa-react": {}
+    },
+    "src/envs": {
+      "defaultScope": "watheia.envs"
+    },
+    "src/tools": {
+      "defaultScope": "watheia.tools"
+    },
+    /**
+       * configures components with namespaces 'entities', 'modules' and 'functions' to use the 
+       * default NodeJS dev environment.
+      */
+    "{utils/**}, {model/**}, {functions/**}": {
+      "teambit.harmony/node": {}
+    },
+    /**
+       * configures components with namespace 'content' to use the MDX dev environment.
+      */
+    "{content/**}": {
+      "teambit.mdx/mdx": {}
+    },
+    /**
+       * configures components with namespaces 'envs' and 'aspects' to use the default Aspect development environment.
+      */
+    "{wa-react}": {
+      "teambit.harmony/aspect": {}
     }
   }
 }

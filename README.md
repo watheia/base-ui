@@ -5,7 +5,7 @@
 
 # Base component design system of Bit.dev
 
-The [reusable set of infra-level React components](https://bit.dev/teambit/base-ui/)
+The [reusable set of infra-level React components](https://bit.dev/watheia/base-ui/)
  used to build [Bit.dev](https://bit.dev).
 
 ![screenshot](./docs/scope-screenshot.png)
@@ -13,7 +13,7 @@ The [reusable set of infra-level React components](https://bit.dev/teambit/base-
 
 ## Components
 
-All components in this frontend codebase were [contained and exposed using Bit](https://github.com/teambit/harmony-base-ui) as a set of independently-usable components. See the **[base collection on bit.dev](https://bit.dev/teambit/base-ui/)** to explore and integrate any component into your project.
+All components in this frontend codebase were [contained and exposed using Bit](https://github.com/watheia/base-ui) as a set of independently-usable components. See the **[base collection on bit.dev](https://bit.dev/watheia/base-ui/)** to explore and integrate any component into your project.
 
 - Install independent components with npm/yarn.
 - Use `bit import` to source and edit components locally for quick editing and integration.
@@ -29,43 +29,69 @@ Instead, it's built from **[components maintained in different codebases](https:
 
 ### Show me an example!
 
-Take a look at the [bit.dev homepage](https://bit.dev/).  
+Take a look our [homepage](https://waweb.vercel.app/).  
 
 You will notice that it's built from components that live in different front-end codebases:
 
-- ["Evangelist" marketing components](https://github.com/teambit/evangelist).
-- [base-ui components](https://github.com/teambit/base-ui).
+- ["Demo" marketing components](https://github.com/watheia/evangelist).
+- [base-ui components](https://github.com/watheia/base-ui).
 - Container application (private).
 - etc
 
 We use [Bit](https://github.com/teambit/bit) to contain and expose components from any codebase as a set of APIs in [bit.dev](https://bit.dev) that can be integrated into different pages and applications. For example:
 
-- Exposed ["Evangelist" marketing components] on bit.dev.
-- Exposed [base-ui components on bit.dev](https://bit.dev/bit/base-ui).
+- Exposed ["Demo" marketing components] on bit.dev.
+- Exposed [base-ui components on bit.dev](https://bit.dev/watheia/base-ui).
 
 
 ## Structure:
 
 ### Theme
+
 All shared styles, colors, sizes, fonts, and css variables, belong here.  
-[Theme-provider](https://bit.dev/bit/base-ui/theme/theme-provider) applies all of these styles at the root of your app, and different apps may implement their own unique theme.
+[Theme-provider](https://bit.dev/watheia/base-ui/theme/theme-provider) applies all of these styles at the root of your app, and different apps may implement their own unique theme.
 
 ### Constants
-Hard coded singleton values, like storage-url and enums. In case of change, this central location could update all other components.
+
+Hard coded context values, like storage-url and enums. In case of change, this central location could update all other components.
 
 ### Layout
+
 Components controlling the position of elements in the document. (Grid, breakpoints, etc)
 
 ### Atoms
+
 Generic building blocks for any front end application.  
 These components are 'vanilla', meaning they should not contain content (like texts or icons) and no specific styles. This is because different designs could look entirely different, so any styles in the base component could lead to a 'CSS Specificity War'. So, add the bare minimum of css here and keep these components purely logical!
 
 ### Utils
+
 Pure logic components and helpers. (no visual components)
 
+
+### workspace.jsonc
+
+This is the main configuration file of your bit workspace. Here you can modify the workspace name and icon as well as default directory and scope. It is where dependencies are found when you install anything. It is also where you register aspects, bit extensions as well as apply the environments for your components. This workspace has been setup so that all components use the React env. However you can create other components and apply other envs to them such as node, html, angular and aspect envs.
+
+### .bitmap
+
+This is an auto-generated file and includes the mapping of your components. There is one component included here. In order to remove this component you can run the following command.
+
+
+### Demo Components
+
+A folder (unless the --empty flag was used) containing demo components are included in this workspace. These components are used to demonstrate the different features of Bit. If you would like to remove these components you can run the following command.
+
+```jsx
+bit remove "ui/*" --delete files
+```
+
+This removes the components from the bitmap as well as removes the files.
+
+
 ## Setup
+
 1. Clone the repository
-1. [Install bit](https://docs.bit.dev/docs/installation)
-1. Run `yarn install` or `npm install` to install all packages.
-1. Run `bit import` to sync components.
-1. Start hacking!
+2. [Install bit](https://docs.bit.dev/docs/installation)
+3. Run `bit import` to sync components.
+4. Start hacking!

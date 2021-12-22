@@ -9,509 +9,857 @@
  */
 
 {
-    "constants/storage": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
+    "atoms/button": {
+        "scope": "watheia.base-ui",
+        "version": "1.7.2",
         "mainFile": "index.ts",
-        "rootDir": "src/constants/storage"
+        "rootDir": "src/base-ui/atoms/button",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
+    },
+    "atoms/button-base": {
+        "scope": "watheia.base-ui",
+        "version": "1.3.2",
+        "mainFile": "index.ts",
+        "rootDir": "src/base-ui/atoms/button-base",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
+    },
+    "atoms/checkbox/hidden": {
+        "scope": "watheia.base-ui",
+        "version": "1.3.0",
+        "mainFile": "index.ts",
+        "rootDir": "src/base-ui/atoms/checkbox/hidden",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
+    },
+    "atoms/checkbox/indicator": {
+        "scope": "watheia.base-ui",
+        "version": "1.3.0",
+        "mainFile": "index.ts",
+        "rootDir": "src/base-ui/atoms/checkbox/indicator",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
+    },
+    "atoms/checkbox/label": {
+        "scope": "watheia.base-ui",
+        "version": "1.2.0",
+        "mainFile": "index.ts",
+        "rootDir": "src/base-ui/atoms/checkbox/label",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
+    },
+    "atoms/dots-loader": {
+        "scope": "watheia.base-ui",
+        "version": "1.4.2",
+        "mainFile": "index.ts",
+        "rootDir": "src/base-ui/atoms/dots-loader",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
+    },
+    "atoms/error": {
+        "scope": "watheia.base-ui",
+        "version": "1.3.2",
+        "mainFile": "index.ts",
+        "rootDir": "src/base-ui/atoms/error",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
+    },
+    "atoms/heading": {
+        "scope": "watheia.base-ui",
+        "version": "1.6.3",
+        "mainFile": "index.ts",
+        "rootDir": "src/base-ui/atoms/heading",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
+    },
+    "atoms/icon": {
+        "scope": "watheia.base-ui",
+        "version": "1.6.3",
+        "mainFile": "index.ts",
+        "rootDir": "src/base-ui/atoms/icon",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
+    },
+    "atoms/icon-base": {
+        "scope": "watheia.base-ui",
+        "version": "1.3.1",
+        "mainFile": "index.ts",
+        "rootDir": "src/base-ui/atoms/icon-base",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
+    },
+    "atoms/icon-line": {
+        "scope": "watheia.base-ui",
+        "version": "1.3.0",
+        "mainFile": "index.ts",
+        "rootDir": "src/base-ui/atoms/icon-line",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
+    },
+    "atoms/image": {
+        "scope": "watheia.base-ui",
+        "version": "1.6.2",
+        "mainFile": "index.ts",
+        "rootDir": "src/base-ui/atoms/image",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
+    },
+    "atoms/image-base": {
+        "scope": "watheia.base-ui",
+        "version": "1.2.2",
+        "mainFile": "index.ts",
+        "rootDir": "src/base-ui/atoms/image-base",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
+    },
+    "atoms/input": {
+        "scope": "watheia.base-ui",
+        "version": "0.1.2",
+        "mainFile": "index.ts",
+        "rootDir": "src/base-ui/atoms/input",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
+    },
+    "atoms/link": {
+        "scope": "watheia.base-ui",
+        "version": "1.7.2",
+        "mainFile": "index.ts",
+        "rootDir": "src/base-ui/atoms/link",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
+    },
+    "atoms/paragraph": {
+        "scope": "watheia.base-ui",
+        "version": "1.6.3",
+        "mainFile": "index.ts",
+        "rootDir": "src/base-ui/atoms/paragraph",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
+    },
+    "atoms/styled-text": {
+        "scope": "watheia.base-ui",
+        "version": "1.3.2",
+        "mainFile": "index.ts",
+        "rootDir": "src/base-ui/atoms/styled-text",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
+    },
+    "atoms/text": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "src/demo/atoms/text",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
+    },
+    "atoms/text-separator": {
+        "scope": "watheia.base-ui",
+        "version": "1.3.2",
+        "mainFile": "index.ts",
+        "rootDir": "src/base-ui/atoms/text-separator",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
+    },
+    "atoms/x-button": {
+        "scope": "watheia.base-ui",
+        "version": "1.2.2",
+        "mainFile": "index.ts",
+        "rootDir": "src/base-ui/atoms/x-button",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "css-components/elevation": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
+        "scope": "watheia.base-ui",
+        "version": "1.3.2",
         "mainFile": "index.ts",
-        "rootDir": "src/css-components/elevation"
+        "rootDir": "src/base-ui/css-components/elevation",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
+    },
+    "css-components/fade-in-out": {
+        "scope": "watheia.base-ui",
+        "version": "1.2.0",
+        "mainFile": "index.ts",
+        "rootDir": "src/base-ui/css-components/fade-in-out",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "css-components/pill": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
+        "scope": "watheia.base-ui",
+        "version": "1.3.2",
         "mainFile": "index.ts",
-        "rootDir": "src/css-components/pill"
+        "rootDir": "src/base-ui/css-components/pill",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "css-components/roundness": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
+        "scope": "watheia.base-ui",
+        "version": "1.3.2",
         "mainFile": "index.ts",
-        "rootDir": "src/css-components/roundness"
-    },
-    "elements/dots-loader": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.3",
-        "mainFile": "index.ts",
-        "rootDir": "src/elements/dots-loader"
-    },
-    "elements/icon": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
-        "mainFile": "index.ts",
-        "rootDir": "src/elements/icon"
-    },
-    "elements/image": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
-        "mainFile": "index.ts",
-        "rootDir": "src/elements/image"
-    },
-    "elements/label": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
-        "mainFile": "index.tsx",
-        "rootDir": "src/elements/label"
-    },
-    "elements/link": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
-        "mainFile": "index.ts",
-        "rootDir": "src/elements/link"
-    },
-    "elements/noop": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
-        "mainFile": "index.ts",
-        "rootDir": "src/elements/noop"
-    },
-    "elements/separator": {
-        "scope": "teambit.base-ui",
-        "version": "1.1.0",
-        "mainFile": "index.tsx",
-        "rootDir": "src/elements/separator"
-    },
-    "experimental/dom-pool": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
-        "mainFile": "index.ts",
-        "rootDir": "src/experimental/dom-pool"
-    },
-    "geometry/curve-peek": {
-        "scope": "teambit.base-ui",
-        "version": "2.0.0",
-        "mainFile": "index.ts",
-        "rootDir": "src/geometry/curve-peek"
-    },
-    "graph/tree/indent": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
-        "mainFile": "index.ts",
-        "rootDir": "src/graph/tree/indent"
-    },
-    "graph/tree/inflate-paths": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
-        "mainFile": "index.ts",
-        "rootDir": "src/graph/tree/inflate-paths"
-    },
-    "graph/tree/recursive-tree": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
-        "mainFile": "index.tsx",
-        "rootDir": "src/graph/tree/recursive-tree"
-    },
-    "graph/tree/root-node": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
-        "mainFile": "index.ts",
-        "rootDir": "src/graph/tree/root-node"
-    },
-    "graph/tree/tree-context": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
-        "mainFile": "index.ts",
-        "rootDir": "src/graph/tree/tree-context"
-    },
-    "hook/use-click-outside": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
-        "mainFile": "index.ts",
-        "rootDir": "src/hooks/use-click-outside"
-    },
-    "hooks/use-graphql-light": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
-        "mainFile": "index.ts",
-        "rootDir": "src/hooks/use-graphql-light"
-    },
-    "input/button": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.3",
-        "mainFile": "index.ts",
-        "rootDir": "src/input/button"
-    },
-    "input/checkbox/hidden": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.1",
-        "mainFile": "index.ts",
-        "rootDir": "src/input/checkbox/hidden"
-    },
-    "input/checkbox/indicator": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
-        "mainFile": "index.ts",
-        "rootDir": "src/input/checkbox/indicator"
-    },
-    "input/checkbox/label": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.1",
-        "mainFile": "index.ts",
-        "rootDir": "src/input/checkbox/label"
-    },
-    "input/error": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.3",
-        "mainFile": "index.ts",
-        "rootDir": "src/input/error"
+        "rootDir": "src/base-ui/css-components/roundness",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "layout/align": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
+        "scope": "watheia.base-ui",
+        "version": "1.3.2",
         "mainFile": "index.ts",
-        "rootDir": "src/layout/align"
+        "rootDir": "src/base-ui/layout/align",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "layout/breakpoints": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
+        "scope": "watheia.base-ui",
+        "version": "1.2.1",
         "mainFile": "_breakpoints.scss",
-        "rootDir": "src/layout/breakpoints"
+        "rootDir": "src/base-ui/layout/breakpoints",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "layout/col-span": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
+        "scope": "watheia.base-ui",
+        "version": "1.3.2",
         "mainFile": "index.ts",
-        "rootDir": "src/layout/col-span"
+        "rootDir": "src/base-ui/layout/col-span",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "layout/grid-component": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.1",
+        "scope": "watheia.base-ui",
+        "version": "1.3.3",
         "mainFile": "index.ts",
-        "rootDir": "src/layout/grid-component"
+        "rootDir": "src/base-ui/layout/grid-component",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "layout/grid-presets/four-way-grid": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
+        "scope": "watheia.base-ui",
+        "version": "1.3.3",
         "mainFile": "index.ts",
-        "rootDir": "src/layout/grid-presets/four-way-grid"
+        "rootDir": "src/base-ui/layout/grid-presets/four-way-grid",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "layout/grid-presets/z-grid": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
+        "scope": "watheia.base-ui",
+        "version": "1.3.3",
         "mainFile": "index.ts",
-        "rootDir": "src/layout/grid-presets/z-grid"
+        "rootDir": "src/base-ui/layout/grid-presets/z-grid",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "layout/page-frame": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.1",
+        "scope": "watheia.base-ui",
+        "version": "1.3.2",
         "mainFile": "index.ts",
-        "rootDir": "src/layout/page-frame"
+        "rootDir": "src/base-ui/layout/page-frame",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
-    "loaders/loader-ribbon": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
+    "layout/spacing": {
+        "scope": "watheia.base-ui",
+        "version": "0.2.2",
         "mainFile": "index.ts",
-        "rootDir": "src/loaders/loader-ribbon"
+        "rootDir": "src/base-ui/layout/spacing",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
-    "loaders/skeleton": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.1",
+    "layout/top-layout": {
+        "scope": "watheia.base-ui",
+        "version": "0.1.2",
         "mainFile": "index.ts",
-        "rootDir": "src/loaders/skeleton"
+        "rootDir": "src/base-ui/layout/top-layout",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
-    "placement/ref-tooltip": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
+    "molecules/card": {
+        "scope": "",
+        "version": "",
         "mainFile": "index.ts",
-        "rootDir": "src/effects/ref-tooltip"
+        "rootDir": "src/demo/molecules/card",
+        "nextVersion": {
+            "version": "patch",
+            "message": " (bump dependencies versions)",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "routing/compare-url": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
+        "scope": "watheia.base-ui",
+        "version": "1.2.0",
         "mainFile": "index.ts",
-        "rootDir": "src/routing/compare-url"
+        "rootDir": "src/base-ui/routing/compare-url",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "routing/link": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
+        "scope": "watheia.base-ui",
+        "version": "1.3.0",
         "mainFile": "index.ts",
-        "rootDir": "src/routing/link"
+        "rootDir": "src/base-ui/routing/link",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "routing/native-link": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
+        "scope": "watheia.base-ui",
+        "version": "1.3.0",
         "mainFile": "index.ts",
-        "rootDir": "src/routing/native-link"
+        "rootDir": "src/base-ui/routing/native-link",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "routing/native-nav-link": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
+        "scope": "watheia.base-ui",
+        "version": "1.6.0",
         "mainFile": "index.ts",
-        "rootDir": "src/routing/native-nav-link"
-    },
-    "routing/nav-link": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
-        "mainFile": "index.ts",
-        "rootDir": "src/routing/nav-link"
+        "rootDir": "src/base-ui/routing/native-nav-link",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "routing/routing-provider": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
+        "scope": "watheia.base-ui",
+        "version": "1.6.0",
         "mainFile": "index.ts",
-        "rootDir": "src/routing/routing-provider"
-    },
-    "styles/flex-center": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
-        "mainFile": "index.ts",
-        "rootDir": "src/styles/flex-center"
+        "rootDir": "src/base-ui/routing/routing-provider",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "surfaces/abs-container": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.1",
+        "scope": "watheia.base-ui",
+        "version": "1.3.0",
         "mainFile": "index.ts",
-        "rootDir": "src/surfaces/abs-container"
+        "rootDir": "src/base-ui/surfaces/abs-container",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "surfaces/background": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.1",
+        "scope": "watheia.base-ui",
+        "version": "1.3.2",
         "mainFile": "index.ts",
-        "rootDir": "src/surfaces/background"
+        "rootDir": "src/base-ui/surfaces/background",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "surfaces/bedrock": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.1",
+        "scope": "watheia.base-ui",
+        "version": "1.2.2",
         "mainFile": "index.ts",
-        "rootDir": "src/surfaces/bedrock"
+        "rootDir": "src/base-ui/surfaces/bedrock",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "surfaces/card": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.1",
-        "mainFile": "index.tsx",
-        "rootDir": "src/surfaces/card"
+        "scope": "watheia.base-ui",
+        "version": "1.6.2",
+        "mainFile": "index.ts",
+        "rootDir": "src/base-ui/surfaces/card",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "surfaces/click-outside": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
+        "scope": "watheia.base-ui",
+        "version": "1.6.0",
         "mainFile": "index.ts",
-        "rootDir": "src/surfaces/click-outside"
+        "rootDir": "src/base-ui/surfaces/click-outside",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "surfaces/drawer": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.1",
+        "scope": "watheia.base-ui",
+        "version": "1.3.0",
         "mainFile": "index.ts",
-        "rootDir": "src/surfaces/drawer"
+        "rootDir": "src/base-ui/surfaces/drawer",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
+    },
+    "surfaces/dropdown": {
+        "scope": "watheia.base-ui",
+        "version": "1.3.2",
+        "mainFile": "index.ts",
+        "rootDir": "src/base-ui/surfaces/dropdown",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "surfaces/split-pane/collapsed-pane": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
+        "scope": "watheia.base-ui",
+        "version": "1.2.0",
         "mainFile": "index.ts",
-        "rootDir": "src/surfaces/split-pane/collapsed-pane"
+        "rootDir": "src/base-ui/surfaces/split-pane/collapsed-pane",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "surfaces/split-pane/fat-splitter": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
+        "scope": "watheia.base-ui",
+        "version": "1.3.0",
         "mainFile": "index.ts",
-        "rootDir": "src/surfaces/split-pane/fat-splitter"
+        "rootDir": "src/base-ui/surfaces/split-pane/fat-splitter",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "surfaces/split-pane/hover-splitter": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
+        "scope": "watheia.base-ui",
+        "version": "1.3.0",
         "mainFile": "index.ts",
-        "rootDir": "src/surfaces/split-pane/hover-splitter"
+        "rootDir": "src/base-ui/surfaces/split-pane/hover-splitter",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "surfaces/split-pane/layout": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
+        "scope": "watheia.base-ui",
+        "version": "1.2.0",
         "mainFile": "index.ts",
-        "rootDir": "src/surfaces/split-pane/layout"
+        "rootDir": "src/base-ui/surfaces/split-pane/layout",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "surfaces/split-pane/pane": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
+        "scope": "watheia.base-ui",
+        "version": "1.3.0",
         "mainFile": "index.ts",
-        "rootDir": "src/surfaces/split-pane/pane"
+        "rootDir": "src/base-ui/surfaces/split-pane/pane",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "surfaces/split-pane/split-pane": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
+        "scope": "watheia.base-ui",
+        "version": "1.3.0",
         "mainFile": "index.ts",
-        "rootDir": "src/surfaces/split-pane/split-pane"
+        "rootDir": "src/base-ui/surfaces/split-pane/split-pane",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "surfaces/split-pane/splitter": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
+        "scope": "watheia.base-ui",
+        "version": "1.3.0",
         "mainFile": "index.ts",
-        "rootDir": "src/surfaces/split-pane/splitter"
+        "rootDir": "src/base-ui/surfaces/split-pane/splitter",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
-    "text/heading": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.3",
+    "surfaces/tooltip": {
+        "scope": "watheia.base-ui",
+        "version": "1.3.2",
         "mainFile": "index.ts",
-        "rootDir": "src/text/heading"
-    },
-    "text/muted-text": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.3",
-        "mainFile": "index.ts",
-        "rootDir": "src/text/muted-text"
-    },
-    "text/paragraph": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.3",
-        "mainFile": "index.tsx",
-        "rootDir": "src/text/paragraph"
-    },
-    "text/text-separator": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.3",
-        "mainFile": "index.ts",
-        "rootDir": "src/text/text-separator"
-    },
-    "text/text-sizes": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
-        "mainFile": "index.ts",
-        "rootDir": "src/text/text-sizes"
-    },
-    "text/themed-text": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.3",
-        "mainFile": "index.ts",
-        "rootDir": "src/text/themed-text"
+        "rootDir": "src/base-ui/surfaces/tooltip",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "theme/accent-color": {
-        "scope": "teambit.base-ui",
-        "version": "1.1.0",
+        "scope": "watheia.base-ui",
+        "version": "1.4.2",
         "mainFile": "index.ts",
-        "rootDir": "src/themes/accent-color"
-    },
-    "theme/brand-colors": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
-        "mainFile": "brand-colors.module.scss",
-        "rootDir": "src/themes/brand-colors"
+        "rootDir": "src/base-ui/theme/accent-color",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "theme/brand-definition": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
+        "scope": "watheia.base-ui",
+        "version": "1.2.3",
         "mainFile": "index.ts",
-        "rootDir": "src/themes/brand-definition"
+        "rootDir": "src/base-ui/theme/brand-definition",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
+    },
+    "theme/brands": {
+        "scope": "watheia.base-ui",
+        "version": "1.3.3",
+        "mainFile": "index.ts",
+        "rootDir": "src/base-ui/theme/brands",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "theme/color-definition": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.1",
+        "scope": "watheia.base-ui",
+        "version": "1.6.3",
         "mainFile": "index.ts",
-        "rootDir": "src/themes/color-definition"
-    },
-    "theme/color-palette": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
-        "mainFile": "index.ts",
-        "rootDir": "src/themes/color-palette"
+        "rootDir": "src/base-ui/theme/color-definition",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "theme/colors": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
+        "scope": "watheia.base-ui",
+        "version": "1.4.1",
         "mainFile": "colors.module.scss",
-        "rootDir": "src/themes/colors"
+        "rootDir": "src/base-ui/theme/colors",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "theme/dark-theme": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.2",
+        "scope": "watheia.base-ui",
+        "version": "1.3.2",
         "mainFile": "index.ts",
-        "rootDir": "src/themes/dark-theme"
+        "rootDir": "src/base-ui/theme/dark-theme",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
-    "theme/fonts/book": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.2",
+    "theme/fonts/clean": {
+        "scope": "watheia.base-ui",
+        "version": "1.4.3",
         "mainFile": "index.ts",
-        "rootDir": "src/themes/fonts/book"
+        "rootDir": "src/base-ui/theme/fonts/clean",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
+    },
+    "theme/fonts/icon-font": {
+        "scope": "watheia.base-ui",
+        "version": "1.3.1",
+        "mainFile": "index.ts",
+        "rootDir": "src/base-ui/theme/fonts/icon-font",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "theme/fonts/roboto": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
+        "scope": "watheia.base-ui",
+        "version": "1.3.0",
         "mainFile": "index.ts",
-        "rootDir": "src/themes/fonts/roboto"
+        "rootDir": "src/base-ui/theme/fonts/roboto",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "theme/heading-margin-definition": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
+        "scope": "watheia.base-ui",
+        "version": "1.2.3",
         "mainFile": "index.ts",
-        "rootDir": "src/themes/heading-margin-definition"
+        "rootDir": "src/base-ui/theme/heading-margin-definition",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
+    },
+    "theme/light-theme": {
+        "scope": "watheia.base-ui",
+        "version": "1.6.3",
+        "mainFile": "index.ts",
+        "rootDir": "src/base-ui/theme/light-theme",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "theme/shadow-definition": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
+        "scope": "watheia.base-ui",
+        "version": "1.2.3",
         "mainFile": "index.ts",
-        "rootDir": "src/themes/shadow-definition"
+        "rootDir": "src/base-ui/theme/shadow-definition",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "theme/size-definition": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
+        "scope": "watheia.base-ui",
+        "version": "1.6.3",
         "mainFile": "index.ts",
-        "rootDir": "src/themes/size-definition"
+        "rootDir": "src/base-ui/theme/size-definition",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "theme/sizes": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
+        "scope": "watheia.base-ui",
+        "version": "1.4.1",
         "mainFile": "sizes.ts",
-        "rootDir": "src/themes/sizes"
+        "rootDir": "src/base-ui/theme/sizes",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "theme/theme-provider": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.3",
-        "mainFile": "index.tsx",
-        "rootDir": "src/themes/theme-provider"
-    },
-    "time/duration": {
-        "scope": "teambit.base-ui",
-        "version": "0.1.0",
+        "scope": "watheia.base-ui",
+        "version": "1.6.3",
         "mainFile": "index.ts",
-        "rootDir": "src/components/time/duration"
+        "rootDir": "src/base-ui/theme/theme-provider",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
-    "utils/composer": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
+    "views/welcome": {
+        "scope": "",
+        "version": "",
         "mainFile": "index.ts",
-        "rootDir": "src/utils/composer"
+        "rootDir": "src/demo/views/welcome",
+        "nextVersion": {
+            "version": "patch",
+            "message": " (bump dependencies versions)",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
-    "utils/is-browser": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
+    "wa-react": {
+        "scope": "",
+        "version": "",
         "mainFile": "index.ts",
-        "rootDir": "src/utils/is-browser"
-    },
-    "utils/popper-js/ignore-popper-size": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
-        "mainFile": "index.ts",
-        "rootDir": "src/utils/popper-js/ignore-popper-size"
-    },
-    "utils/popper-js/resize-to-match-reference": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
-        "mainFile": "index.ts",
-        "rootDir": "src/utils/popper-js/resize-to-match-reference"
-    },
-    "utils/primitives": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
-        "mainFile": "index.ts",
-        "rootDir": "src/utils/primitives"
-    },
-    "utils/string/affix": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
-        "mainFile": "index.ts",
-        "rootDir": "src/utils/string/affix"
-    },
-    "utils/sub-paths": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
-        "mainFile": "index.ts",
-        "rootDir": "src/utils/sub-paths"
-    },
-    "utils/time-ago": {
-        "scope": "teambit.base-ui",
-        "version": "1.0.0",
-        "mainFile": "index.ts",
-        "rootDir": "src/utils/time-ago"
+        "rootDir": "src/envs/wa-react",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
     },
     "$schema-version": "14.9.0"
 }

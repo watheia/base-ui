@@ -1,26 +1,44 @@
 {
   "name": "base-ui",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "core ui components",
+  "main": "index.js",
+  "repository": "https://github.com/watheia/base-ui.git",
+  "author": "watheialabs <drkstr101@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "keywords": [""],
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "ci": "yarn install && yarn compile && yarn format && yarn lint && yarn test && yarn tag --all --soft",
+    "install": "~/bin/bit install",
+    "compile": "~/bin/bit compile",
+    "format": "~/bin/bit format",
+    "lint": "~/bin/bit lint",
+    "build": "~/bin/bit build",
+    "test": "~/bin/bit test"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "dependencies": {
+    "core-js": "3.7.0",
+    "duration": "0.2.2",
+    "graphql": "15.5.0",
+    "graphql-request": "3.4.0",
+    "javascript-time-ago": "^2.0.13",
+    "lodash.debounce": "^4.0.8",
+    "number-abbreviate": "^2.0.0",
+    "path-browserify": "^1.0.1",
+    "rc-tooltip": "^4.2.1",
+    "react-create-ref": "^1.0.1",
+    "react-onclickoutside": "^6.9.0",
+    "react-slick": "^0.27.0",
+    "resize-observer-polyfill": "^1.5.1",
+    "url-parse": "1.5.1",
+    "use-deep-compare": "1.1.0"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "peerDependencies": {
+    "@testing-library/react": "12.0.0",
+    "eslint": "8.5.0",
+    "prettier": "2.5.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
   }
 }
