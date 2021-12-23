@@ -13,7 +13,7 @@
         "scope": "watheia.base-ui",
         "version": "1.7.2",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/atoms/button",
+        "rootDir": "libs/base-ui/src/atoms/button",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -25,7 +25,7 @@
         "scope": "watheia.base-ui",
         "version": "1.3.2",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/atoms/button-base",
+        "rootDir": "libs/base-ui/src/atoms/button-base",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -37,7 +37,7 @@
         "scope": "watheia.base-ui",
         "version": "1.3.0",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/atoms/checkbox/hidden",
+        "rootDir": "libs/base-ui/src/atoms/checkbox/hidden",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -49,7 +49,7 @@
         "scope": "watheia.base-ui",
         "version": "1.3.0",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/atoms/checkbox/indicator",
+        "rootDir": "libs/base-ui/src/atoms/checkbox/indicator",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -61,7 +61,7 @@
         "scope": "watheia.base-ui",
         "version": "1.2.0",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/atoms/checkbox/label",
+        "rootDir": "libs/base-ui/src/atoms/checkbox/label",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -73,7 +73,7 @@
         "scope": "watheia.base-ui",
         "version": "1.4.2",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/atoms/dots-loader",
+        "rootDir": "libs/base-ui/src/atoms/dots-loader",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -85,7 +85,7 @@
         "scope": "watheia.base-ui",
         "version": "1.3.2",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/atoms/error",
+        "rootDir": "libs/base-ui/src/atoms/error",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -97,7 +97,7 @@
         "scope": "watheia.base-ui",
         "version": "1.6.3",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/atoms/heading",
+        "rootDir": "libs/base-ui/src/atoms/heading",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -109,7 +109,7 @@
         "scope": "watheia.base-ui",
         "version": "1.6.3",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/atoms/icon",
+        "rootDir": "libs/base-ui/src/atoms/icon",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -121,7 +121,7 @@
         "scope": "watheia.base-ui",
         "version": "1.3.1",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/atoms/icon-base",
+        "rootDir": "libs/base-ui/src/atoms/icon-base",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -133,7 +133,7 @@
         "scope": "watheia.base-ui",
         "version": "1.3.0",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/atoms/icon-line",
+        "rootDir": "libs/base-ui/src/atoms/icon-line",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -145,7 +145,7 @@
         "scope": "watheia.base-ui",
         "version": "1.6.2",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/atoms/image",
+        "rootDir": "libs/base-ui/src/atoms/image",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -157,7 +157,7 @@
         "scope": "watheia.base-ui",
         "version": "1.2.2",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/atoms/image-base",
+        "rootDir": "libs/base-ui/src/atoms/image-base",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -169,7 +169,7 @@
         "scope": "watheia.base-ui",
         "version": "0.1.2",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/atoms/input",
+        "rootDir": "libs/base-ui/src/atoms/input",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -181,7 +181,7 @@
         "scope": "watheia.base-ui",
         "version": "1.7.2",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/atoms/link",
+        "rootDir": "libs/base-ui/src/atoms/link",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -193,7 +193,7 @@
         "scope": "watheia.base-ui",
         "version": "1.6.3",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/atoms/paragraph",
+        "rootDir": "libs/base-ui/src/atoms/paragraph",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -205,7 +205,7 @@
         "scope": "watheia.base-ui",
         "version": "1.3.2",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/atoms/styled-text",
+        "rootDir": "libs/base-ui/src/atoms/styled-text",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -217,7 +217,7 @@
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "src/demo/atoms/text",
+        "rootDir": "libs/demo/src/atoms/text",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -229,7 +229,7 @@
         "scope": "watheia.base-ui",
         "version": "1.3.2",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/atoms/text-separator",
+        "rootDir": "libs/base-ui/src/atoms/text-separator",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -241,7 +241,7 @@
         "scope": "watheia.base-ui",
         "version": "1.2.2",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/atoms/x-button",
+        "rootDir": "libs/base-ui/src/atoms/x-button",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -253,7 +253,7 @@
         "scope": "watheia.base-ui",
         "version": "1.3.2",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/css-components/elevation",
+        "rootDir": "libs/base-ui/src/css-components/elevation",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -265,7 +265,7 @@
         "scope": "watheia.base-ui",
         "version": "1.2.0",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/css-components/fade-in-out",
+        "rootDir": "libs/base-ui/src/css-components/fade-in-out",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -277,7 +277,7 @@
         "scope": "watheia.base-ui",
         "version": "1.3.2",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/css-components/pill",
+        "rootDir": "libs/base-ui/src/css-components/pill",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -289,7 +289,43 @@
         "scope": "watheia.base-ui",
         "version": "1.3.2",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/css-components/roundness",
+        "rootDir": "libs/base-ui/src/css-components/roundness",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
+    },
+    "fonts/clean": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "libs/theme/src/fonts/clean",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
+    },
+    "fonts/icon-font": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "libs/theme/src/fonts/icon-font",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
+    },
+    "fonts/roboto": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "libs/theme/src/fonts/roboto",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -301,7 +337,7 @@
         "scope": "watheia.base-ui",
         "version": "1.3.2",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/layout/align",
+        "rootDir": "libs/base-ui/src/layout/align",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -313,7 +349,7 @@
         "scope": "watheia.base-ui",
         "version": "1.2.1",
         "mainFile": "_breakpoints.scss",
-        "rootDir": "src/base-ui/layout/breakpoints",
+        "rootDir": "libs/base-ui/src/layout/breakpoints",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -325,7 +361,7 @@
         "scope": "watheia.base-ui",
         "version": "1.3.2",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/layout/col-span",
+        "rootDir": "libs/base-ui/src/layout/col-span",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -337,7 +373,7 @@
         "scope": "watheia.base-ui",
         "version": "1.3.3",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/layout/grid-component",
+        "rootDir": "libs/base-ui/src/layout/grid-component",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -349,7 +385,7 @@
         "scope": "watheia.base-ui",
         "version": "1.3.3",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/layout/grid-presets/four-way-grid",
+        "rootDir": "libs/base-ui/src/layout/grid-presets/four-way-grid",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -361,7 +397,7 @@
         "scope": "watheia.base-ui",
         "version": "1.3.3",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/layout/grid-presets/z-grid",
+        "rootDir": "libs/base-ui/src/layout/grid-presets/z-grid",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -373,7 +409,7 @@
         "scope": "watheia.base-ui",
         "version": "1.3.2",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/layout/page-frame",
+        "rootDir": "libs/base-ui/src/layout/page-frame",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -385,19 +421,7 @@
         "scope": "watheia.base-ui",
         "version": "0.2.2",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/layout/spacing",
-        "nextVersion": {
-            "version": "patch",
-            "message": "",
-            "username": "watheialabs",
-            "email": "drkstr101@gmail.com"
-        }
-    },
-    "layout/top-layout": {
-        "scope": "watheia.base-ui",
-        "version": "0.1.2",
-        "mainFile": "index.ts",
-        "rootDir": "src/base-ui/layout/top-layout",
+        "rootDir": "libs/base-ui/src/layout/spacing",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -409,7 +433,7 @@
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "src/demo/molecules/card",
+        "rootDir": "libs/demo/src/molecules/card",
         "nextVersion": {
             "version": "patch",
             "message": " (bump dependencies versions)",
@@ -421,7 +445,7 @@
         "scope": "watheia.base-ui",
         "version": "1.2.0",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/routing/compare-url",
+        "rootDir": "libs/base-ui/src/routing/compare-url",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -433,7 +457,7 @@
         "scope": "watheia.base-ui",
         "version": "1.3.0",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/routing/link",
+        "rootDir": "libs/base-ui/src/routing/link",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -445,7 +469,7 @@
         "scope": "watheia.base-ui",
         "version": "1.3.0",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/routing/native-link",
+        "rootDir": "libs/base-ui/src/routing/native-link",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -457,7 +481,7 @@
         "scope": "watheia.base-ui",
         "version": "1.6.0",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/routing/native-nav-link",
+        "rootDir": "libs/base-ui/src/routing/native-nav-link",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -469,7 +493,79 @@
         "scope": "watheia.base-ui",
         "version": "1.6.0",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/routing/routing-provider",
+        "rootDir": "libs/base-ui/src/routing/routing-provider",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
+    },
+    "styles/accent-color": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "libs/theme/src/styles/accent-color",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
+    },
+    "styles/brand-definition": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "libs/theme/src/styles/brand-definition",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
+    },
+    "styles/color-definition": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "libs/theme/src/styles/color-definition",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
+    },
+    "styles/heading-margin-definition": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "libs/theme/src/styles/heading-margin-definition",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
+    },
+    "styles/shadow-definition": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "libs/theme/src/styles/shadow-definition",
+        "nextVersion": {
+            "version": "patch",
+            "message": "",
+            "username": "watheialabs",
+            "email": "drkstr101@gmail.com"
+        }
+    },
+    "styles/size-definition": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "libs/theme/src/styles/size-definition",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -481,7 +577,7 @@
         "scope": "watheia.base-ui",
         "version": "1.3.0",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/surfaces/abs-container",
+        "rootDir": "libs/base-ui/src/surfaces/abs-container",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -493,7 +589,7 @@
         "scope": "watheia.base-ui",
         "version": "1.3.2",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/surfaces/background",
+        "rootDir": "libs/base-ui/src/surfaces/background",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -505,7 +601,7 @@
         "scope": "watheia.base-ui",
         "version": "1.2.2",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/surfaces/bedrock",
+        "rootDir": "libs/base-ui/src/surfaces/bedrock",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -517,7 +613,7 @@
         "scope": "watheia.base-ui",
         "version": "1.6.2",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/surfaces/card",
+        "rootDir": "libs/base-ui/src/surfaces/card",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -529,7 +625,7 @@
         "scope": "watheia.base-ui",
         "version": "1.6.0",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/surfaces/click-outside",
+        "rootDir": "libs/base-ui/src/surfaces/click-outside",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -541,7 +637,7 @@
         "scope": "watheia.base-ui",
         "version": "1.3.0",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/surfaces/drawer",
+        "rootDir": "libs/base-ui/src/surfaces/drawer",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -553,7 +649,7 @@
         "scope": "watheia.base-ui",
         "version": "1.3.2",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/surfaces/dropdown",
+        "rootDir": "libs/base-ui/src/surfaces/dropdown",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -565,7 +661,7 @@
         "scope": "watheia.base-ui",
         "version": "1.2.0",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/surfaces/split-pane/collapsed-pane",
+        "rootDir": "libs/base-ui/src/surfaces/split-pane/collapsed-pane",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -577,7 +673,7 @@
         "scope": "watheia.base-ui",
         "version": "1.3.0",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/surfaces/split-pane/fat-splitter",
+        "rootDir": "libs/base-ui/src/surfaces/split-pane/fat-splitter",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -589,7 +685,7 @@
         "scope": "watheia.base-ui",
         "version": "1.3.0",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/surfaces/split-pane/hover-splitter",
+        "rootDir": "libs/base-ui/src/surfaces/split-pane/hover-splitter",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -601,7 +697,7 @@
         "scope": "watheia.base-ui",
         "version": "1.2.0",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/surfaces/split-pane/layout",
+        "rootDir": "libs/base-ui/src/surfaces/split-pane/layout",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -613,7 +709,7 @@
         "scope": "watheia.base-ui",
         "version": "1.3.0",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/surfaces/split-pane/pane",
+        "rootDir": "libs/base-ui/src/surfaces/split-pane/pane",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -625,7 +721,7 @@
         "scope": "watheia.base-ui",
         "version": "1.3.0",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/surfaces/split-pane/split-pane",
+        "rootDir": "libs/base-ui/src/surfaces/split-pane/split-pane",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -637,7 +733,7 @@
         "scope": "watheia.base-ui",
         "version": "1.3.0",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/surfaces/split-pane/splitter",
+        "rootDir": "libs/base-ui/src/surfaces/split-pane/splitter",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -649,7 +745,7 @@
         "scope": "watheia.base-ui",
         "version": "1.3.2",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/surfaces/tooltip",
+        "rootDir": "libs/base-ui/src/surfaces/tooltip",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -657,23 +753,17 @@
             "email": "drkstr101@gmail.com"
         }
     },
-    "theme/accent-color": {
-        "scope": "watheia.base-ui",
-        "version": "1.4.2",
+    "theme-context": {
+        "scope": "",
+        "version": "",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/theme/accent-color",
-        "nextVersion": {
-            "version": "patch",
-            "message": "",
-            "username": "watheialabs",
-            "email": "drkstr101@gmail.com"
-        }
+        "rootDir": "libs/theme/src/theme-context"
     },
-    "theme/brand-definition": {
-        "scope": "watheia.base-ui",
-        "version": "1.2.3",
+    "theme-provider": {
+        "scope": "",
+        "version": "",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/theme/brand-definition",
+        "rootDir": "libs/theme/src/theme-provider",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -681,11 +771,11 @@
             "email": "drkstr101@gmail.com"
         }
     },
-    "theme/brands": {
-        "scope": "watheia.base-ui",
-        "version": "1.3.3",
+    "tokens/brand": {
+        "scope": "",
+        "version": "",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/theme/brands",
+        "rootDir": "libs/theme/src/tokens/brand",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -693,23 +783,11 @@
             "email": "drkstr101@gmail.com"
         }
     },
-    "theme/color-definition": {
-        "scope": "watheia.base-ui",
-        "version": "1.6.3",
-        "mainFile": "index.ts",
-        "rootDir": "src/base-ui/theme/color-definition",
-        "nextVersion": {
-            "version": "patch",
-            "message": "",
-            "username": "watheialabs",
-            "email": "drkstr101@gmail.com"
-        }
-    },
-    "theme/colors": {
-        "scope": "watheia.base-ui",
-        "version": "1.4.1",
+    "tokens/color": {
+        "scope": "",
+        "version": "",
         "mainFile": "colors.module.scss",
-        "rootDir": "src/base-ui/theme/colors",
+        "rootDir": "libs/theme/src/tokens/color",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -717,107 +795,11 @@
             "email": "drkstr101@gmail.com"
         }
     },
-    "theme/dark-theme": {
-        "scope": "watheia.base-ui",
-        "version": "1.3.2",
-        "mainFile": "index.ts",
-        "rootDir": "src/base-ui/theme/dark-theme",
-        "nextVersion": {
-            "version": "patch",
-            "message": "",
-            "username": "watheialabs",
-            "email": "drkstr101@gmail.com"
-        }
-    },
-    "theme/fonts/clean": {
-        "scope": "watheia.base-ui",
-        "version": "1.4.3",
-        "mainFile": "index.ts",
-        "rootDir": "src/base-ui/theme/fonts/clean",
-        "nextVersion": {
-            "version": "patch",
-            "message": "",
-            "username": "watheialabs",
-            "email": "drkstr101@gmail.com"
-        }
-    },
-    "theme/fonts/icon-font": {
-        "scope": "watheia.base-ui",
-        "version": "1.3.1",
-        "mainFile": "index.ts",
-        "rootDir": "src/base-ui/theme/fonts/icon-font",
-        "nextVersion": {
-            "version": "patch",
-            "message": "",
-            "username": "watheialabs",
-            "email": "drkstr101@gmail.com"
-        }
-    },
-    "theme/fonts/roboto": {
-        "scope": "watheia.base-ui",
-        "version": "1.3.0",
-        "mainFile": "index.ts",
-        "rootDir": "src/base-ui/theme/fonts/roboto",
-        "nextVersion": {
-            "version": "patch",
-            "message": "",
-            "username": "watheialabs",
-            "email": "drkstr101@gmail.com"
-        }
-    },
-    "theme/heading-margin-definition": {
-        "scope": "watheia.base-ui",
-        "version": "1.2.3",
-        "mainFile": "index.ts",
-        "rootDir": "src/base-ui/theme/heading-margin-definition",
-        "nextVersion": {
-            "version": "patch",
-            "message": "",
-            "username": "watheialabs",
-            "email": "drkstr101@gmail.com"
-        }
-    },
-    "theme/light-theme": {
-        "scope": "watheia.base-ui",
-        "version": "1.6.3",
-        "mainFile": "index.ts",
-        "rootDir": "src/base-ui/theme/light-theme",
-        "nextVersion": {
-            "version": "patch",
-            "message": "",
-            "username": "watheialabs",
-            "email": "drkstr101@gmail.com"
-        }
-    },
-    "theme/shadow-definition": {
-        "scope": "watheia.base-ui",
-        "version": "1.2.3",
-        "mainFile": "index.ts",
-        "rootDir": "src/base-ui/theme/shadow-definition",
-        "nextVersion": {
-            "version": "patch",
-            "message": "",
-            "username": "watheialabs",
-            "email": "drkstr101@gmail.com"
-        }
-    },
-    "theme/size-definition": {
-        "scope": "watheia.base-ui",
-        "version": "1.6.3",
-        "mainFile": "index.ts",
-        "rootDir": "src/base-ui/theme/size-definition",
-        "nextVersion": {
-            "version": "patch",
-            "message": "",
-            "username": "watheialabs",
-            "email": "drkstr101@gmail.com"
-        }
-    },
-    "theme/sizes": {
-        "scope": "watheia.base-ui",
-        "version": "1.4.1",
+    "tokens/size": {
+        "scope": "",
+        "version": "",
         "mainFile": "sizes.ts",
-        "rootDir": "src/base-ui/theme/sizes",
+        "rootDir": "libs/theme/src/tokens/size",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -825,23 +807,24 @@
             "email": "drkstr101@gmail.com"
         }
     },
-    "theme/theme-provider": {
-        "scope": "watheia.base-ui",
-        "version": "1.6.3",
+    "views/components-view": {
+        "scope": "",
+        "version": "",
         "mainFile": "index.ts",
-        "rootDir": "src/base-ui/theme/theme-provider",
-        "nextVersion": {
-            "version": "patch",
-            "message": "",
-            "username": "watheialabs",
-            "email": "drkstr101@gmail.com"
-        }
+        "rootDir": "libs/theme/src/views/components-view"
+    },
+    "views/components-view": {
+        "scope": "",
+        "version": "",
+        "defaultScope": "watheia.theme",
+        "mainFile": "index.ts",
+        "rootDir": "libs/theme/src/views/components-view"
     },
     "views/welcome": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "src/demo/views/welcome",
+        "rootDir": "libs/demo/src/views/welcome",
         "nextVersion": {
             "version": "patch",
             "message": " (bump dependencies versions)",
@@ -853,7 +836,7 @@
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "src/envs/wa-react",
+        "rootDir": "libs/envs/src/wa-react",
         "nextVersion": {
             "version": "patch",
             "message": "",

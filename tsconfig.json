@@ -1,7 +1,0 @@
-{
-  "extends": "./node_modules/@watheia/envs.wa-react/typescript/tsconfig.json",
-  "files": ["./types/asset.d.ts", "./types/style.d.ts"],
-  "exclude": [
-    "dist"
-  ]
-}

@@ -23,7 +23,7 @@
      * scope - scope name only, e.g. 'compilation'.
      * owner - owner name in bit.dev, e.g. 'teambit'.
      **/
-    "defaultDirectory": "src/{scope}/{name}",
+    "defaultDirectory": "libs/{scope}/src/{name}",
     /**
      * default scope for all components in workspace.
      **/
@@ -36,15 +36,25 @@
     /**
      * choose the package manager for Bit to use. you can choose between 'yarn', 'pnpm'
      */
-    "packageManager": "teambit.dependencies/pnpm",
+    "packageManager": "teambit.dependencies/yarn",
     "policy": {
+      "dependencies": {},
       "peerDependencies": {
+        "@adobe/react-spectrum": "3.15.1",
+        "@spectrum-icons/illustrations": "3.2.2",
+        "@spectrum-icons/ui": "3.2.1",
+        "@spectrum-icons/workflow": "3.2.1",
         "@teambit/design.ui.external-link": "^0.0.344",
         "@teambit/documenter.theme.theme-compositions": "^4.1.1",
         "@teambit/documenter.ui.copy-box": "^4.1.1",
         "@teambit/eslint-config-bit-react": "^0.0.367",
         "@teambit/harmony": "^0.2.11",
-        "@teambit/react.templates.themes.theme": "^0.0.4"
+        "@teambit/react.templates.themes.theme": "^0.0.4",
+        "react": "^17.0.2",
+        "react-aria": "^3.12.0",
+        "react-dom": "^17.0.2",
+        "react-spectrum": "^1.2.3",
+        "react-stately": "^3.11.0"
       }
     }
   },
@@ -72,18 +82,23 @@
         }
       }
     },
-    "src/base-ui": {
+    "libs/base-ui": {
       "defaultScope": "watheia.base-ui",
-      "teambit.react/react": {}
+      "teambit.react/react": "-",
+      "watheia.envs/wa-react": {}
     },
-    "src/demo": {
+    "libs/demo": {
       "defaultScope": "watheia.demo",
       "watheia.envs/wa-react": {}
     },
-    "src/envs": {
+    "libs/envs": {
       "defaultScope": "watheia.envs"
     },
-    "src/tools": {
+    "libs/theme": {
+      "defaultScope": "watheia.theme",
+      "teambit.react/react": {}
+    },
+    "libs/tools": {
       "defaultScope": "watheia.tools"
     },
     /**

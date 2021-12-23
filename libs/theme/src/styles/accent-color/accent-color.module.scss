@@ -1,0 +1,92 @@
+@import '~@watheia/theme.tokens.color/colors.module.scss';
+
+// brand colors
+.primary {
+  --accent-color: #{$g50};
+  --accent-heavy: #{$g60};
+  --accent-light: #{$g40};
+  --accent-text: #{$g50};
+  --accent-text-heavy: #{$g60};
+  --text-on-accent: #{$w10};
+  --accent-bg: #{$g20};
+  --accent-bg-heavy: #{$g70};
+}
+
+.complementary {
+  --accent-color: #{$b50};
+  --accent-heavy: #{$b60};
+  --accent-light: #{$b40};
+  --accent-text: #{$b50};
+  --accent-text-heavy: #{$b60};
+  --text-on-accent: #{$w10};
+  --accent-bg: #{$b20};
+  --accent-bg-heavy: #{$b30};
+}
+
+// intents
+.impulsive {
+  --accent-color: #{$r50};
+  --accent-heavy: #{$r60};
+  --accent-light: #{$r40};
+  --accent-text: #{$r50};
+  --accent-text-heavy: #{$r60};
+  --text-on-accent: #{$w10};
+  --accent-bg: #{$r20};
+  --accent-bg-heavy: #{$r30};
+}
+
+.hungry {
+  --accent-color: #{$y50};
+  --accent-heavy: #{$y60};
+  --accent-light: #{$y40};
+  --accent-text: #{$y50};
+  --accent-text-heavy: #{$y60};
+  --text-on-accent: #{$d70};
+  --accent-bg: #{$y20};
+  --accent-bg-heavy: #{$y30};
+}
+
+.success {
+  --accent-color: #146b62;
+  --accent-heavy: #0d453f;
+  --accent-light: #28d1c0;
+  --accent-text: #1c9186;
+  --accent-text-heavy: 146b62;
+  --text-on-accent: #{$w10};
+  --accent-bg: rgba(40, 209, 192, 0.1);
+  --accent-bg-heavy: rgba(40, 209, 192, 0.25);
+}
+
+.process {
+  --accent-color: #{$b50};
+  --accent-heavy: #{$b60};
+  --accent-light: #{$b40};
+  --accent-text: #{$b50};
+  --accent-text-heavy: #{$b60};
+  --text-on-accent: #{$w10};
+  --accent-bg: #{$b20};
+  --accent-bg-heavy: #{$b30};
+}
+
+// weight
+.emphasized {
+  --accent-color: #{$d60};
+  --accent-heavy: #{$d70};
+  --accent-light: #{$d50};
+  --accent-text: #{$d60};
+  --accent-text-heavy: #{$d70};
+  --text-on-accent: #{$w10};
+  --accent-bg: #{$d10};
+  --accent-bg-heavy: #{$d15};
+}
+
+.neutral {
+  --accent-color: #{$d50};
+  --accent-heavy: #{$d60};
+  --accent-light: #{$d40};
+  --accent-text: #{$d50};
+  --accent-text-heavy: #{$d60};
+  --text-on-accent: #{$w10};
+  --accent-bg: #{$w20};
+  --accent-bg-heavy: #{$d10};
+}

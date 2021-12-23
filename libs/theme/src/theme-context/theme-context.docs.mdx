@@ -1,0 +1,25 @@
+---
+description: ThemeContext context.
+labels: ['context']
+---
+
+import { ThemeContext } from './theme-context';
+import { MockComponent } from './theme-context.composition';
+
+## React Theme Context
+
+This is a simple [React Context](https://reactjs.org/docs/context.html) shared as a Bit component.
+Use this component to apply a theme as a context to set on it's children.
+
+### Component usage
+
+```tsx live
+() => {
+import React, { useContext } from 'react';
+import { ThemeContext } from '@watheia/base-ui.theme.theme-context';
+
+<ThemeContext.Provider value={{ colorScheme: 'dark' }}>
+  // My lovely children now get a dark theme!
+  <MockComponent />
+</ThemeContext.Provider>;
+```

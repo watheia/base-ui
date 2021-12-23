@@ -1,97 +1,90 @@
-[![bit components](https://img.shields.io/badge/dynamic/json.svg?color=6e3991&label=bit%20components&query=payload.totalComponents&url=https://api.bit.dev/scope/teambit/base-ui?UseCache=1)](https://bit.dev/teambit/base-ui)
-<a href="https://opensource.org/licenses/Apache-2.0"><img alt="apache" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg"></a>
-<a href="https://github.com/teambit/example-templates/blob/master/README.md#contributing"><img alt="prs" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"></a>
-![Tests](https://github.com/teambit/harmony-base-ui/workflows/Tests/badge.svg)
+# BaseUi
 
-# Base component design system of Bit.dev
+This project was generated using [Nx](https://nx.dev).
 
-The [reusable set of infra-level React components](https://bit.dev/watheia/base-ui/)
- used to build [Bit.dev](https://bit.dev).
+<p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450"></p>
 
-![screenshot](./docs/scope-screenshot.png)
+🔎 **Smart, Fast and Extensible Build System**
 
+## Adding capabilities to your workspace
 
-## Components
+Nx supports many plugins which add capabilities for developing different types of applications and different tools.
 
-All components in this frontend codebase were [contained and exposed using Bit](https://github.com/watheia/base-ui) as a set of independently-usable components. See the **[base collection on bit.dev](https://bit.dev/watheia/base-ui/)** to explore and integrate any component into your project.
+These capabilities include generating applications, libraries, etc as well as the devtools to test, and build projects as well.
 
-- Install independent components with npm/yarn.
-- Use `bit import` to source and edit components locally for quick editing and integration.
-- Try any component hands-on in a live playground.
+Below are our core plugins:
 
+- [React](https://reactjs.org)
+  - `npm install --save-dev @nrwl/react`
+- Web (no framework frontends)
+  - `npm install --save-dev @nrwl/web`
+- [Angular](https://angular.io)
+  - `npm install --save-dev @nrwl/angular`
+- [Nest](https://nestjs.com)
+  - `npm install --save-dev @nrwl/nest`
+- [Express](https://expressjs.com)
+  - `npm install --save-dev @nrwl/express`
+- [Node](https://nodejs.org)
+  - `npm install --save-dev @nrwl/node`
 
-## This is a component-based micro-frontend
+There are also many [community plugins](https://nx.dev/community) you could add.
 
-Wait.. what?
+## Generate an application
 
-The entire bit.dev platform and website **isn't built as one monolithic application**.
-Instead, it's built from **[components maintained in different codebases](https://docs.bit.dev/docs/workflows/microfrontends)** which are separately developed, then exposed and integrated together using [Bit](https://github.com/teambit/bit).
+Run `nx g @nrwl/react:app my-app` to generate an application.
 
-### Show me an example!
+> You can use any of the plugins above to generate applications as well.
 
-Take a look our [homepage](https://waweb.vercel.app/).  
+When using Nx, you can create multiple applications and libraries in the same workspace.
 
-You will notice that it's built from components that live in different front-end codebases:
+## Generate a library
 
-- ["Demo" marketing components](https://github.com/watheia/evangelist).
-- [base-ui components](https://github.com/watheia/base-ui).
-- Container application (private).
-- etc
+Run `nx g @nrwl/react:lib my-lib` to generate a library.
 
-We use [Bit](https://github.com/teambit/bit) to contain and expose components from any codebase as a set of APIs in [bit.dev](https://bit.dev) that can be integrated into different pages and applications. For example:
+> You can also use any of the plugins above to generate libraries as well.
 
-- Exposed ["Demo" marketing components] on bit.dev.
-- Exposed [base-ui components on bit.dev](https://bit.dev/watheia/base-ui).
+Libraries are shareable across libraries and applications. They can be imported from `@base-ui/mylib`.
 
+## Development server
 
-## Structure:
+Run `nx serve my-app` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
 
-### Theme
+## Code scaffolding
 
-All shared styles, colors, sizes, fonts, and css variables, belong here.  
-[Theme-provider](https://bit.dev/watheia/base-ui/theme/theme-provider) applies all of these styles at the root of your app, and different apps may implement their own unique theme.
+Run `nx g @nrwl/react:component my-component --project=my-app` to generate a new component.
 
-### Constants
+## Build
 
-Hard coded context values, like storage-url and enums. In case of change, this central location could update all other components.
+Run `nx build my-app` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-### Layout
+## Running unit tests
 
-Components controlling the position of elements in the document. (Grid, breakpoints, etc)
+Run `nx test my-app` to execute the unit tests via [Jest](https://jestjs.io).
 
-### Atoms
+Run `nx affected:test` to execute the unit tests affected by a change.
 
-Generic building blocks for any front end application.  
-These components are 'vanilla', meaning they should not contain content (like texts or icons) and no specific styles. This is because different designs could look entirely different, so any styles in the base component could lead to a 'CSS Specificity War'. So, add the bare minimum of css here and keep these components purely logical!
+## Running end-to-end tests
 
-### Utils
+Run `ng e2e my-app` to execute the end-to-end tests via [Cypress](https://www.cypress.io).
 
-Pure logic components and helpers. (no visual components)
+Run `nx affected:e2e` to execute the end-to-end tests affected by a change.
 
+## Understand your workspace
 
-### workspace.jsonc
+Run `nx dep-graph` to see a diagram of the dependencies of your projects.
 
-This is the main configuration file of your bit workspace. Here you can modify the workspace name and icon as well as default directory and scope. It is where dependencies are found when you install anything. It is also where you register aspects, bit extensions as well as apply the environments for your components. This workspace has been setup so that all components use the React env. However you can create other components and apply other envs to them such as node, html, angular and aspect envs.
+## Further help
 
-### .bitmap
+Visit the [Nx Documentation](https://nx.dev) to learn more.
 
-This is an auto-generated file and includes the mapping of your components. There is one component included here. In order to remove this component you can run the following command.
+## ☁ Nx Cloud
 
+### Distributed Computation Caching & Distributed Task Execution
 
-### Demo Components
+<p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-cloud-card.png"></p>
 
-A folder (unless the --empty flag was used) containing demo components are included in this workspace. These components are used to demonstrate the different features of Bit. If you would like to remove these components you can run the following command.
+Nx Cloud pairs with Nx in order to enable you to build and test code more rapidly, by up to 10 times. Even teams that are new to Nx can connect to Nx Cloud and start saving time instantly.
 
-```jsx
-bit remove "ui/*" --delete files
-```
+Teams using Nx gain the advantage of building full-stack applications with their preferred framework alongside Nx’s advanced code generation and project dependency graph, plus a unified experience for both frontend and backend developers.
 
-This removes the components from the bitmap as well as removes the files.
-
-
-## Setup
-
-1. Clone the repository
-2. [Install bit](https://docs.bit.dev/docs/installation)
-3. Run `bit import` to sync components.
-4. Start hacking!
+Visit [Nx Cloud](https://nx.app/) to learn more.

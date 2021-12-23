@@ -13,7 +13,8 @@ nvm use 14
 npm install --global npm yarn @teambit/bvm
 bvm install
 
-rm ~/.bashrc
+# rm ~/.bashrc
+# rm  ~/.npmrc
 echo 'export PATH=${HOME}/bin:${PATH}' >> ~/.bashrc
 echo "Adding bit.dev to npm registry"
 echo "always-auth=true" >> ~/.npmrc

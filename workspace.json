@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "projects": {
+    "base-ui": "libs/base-ui",
+    "demo": "libs/demo",
+    "envs": "libs/envs",
+    "hello": "apps/hello",
+    "hello-e2e": "apps/hello-e2e",
+    "theme": "libs/theme"
+  }
+}
